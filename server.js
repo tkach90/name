@@ -43,7 +43,7 @@ var cars = [
 }
 ];
 
-app.get('/cars', function (req, res){
+app.get('/', function (req, res){
 	res.send(cars);
 });
 app.get('/cars/:position', function (req, res){
